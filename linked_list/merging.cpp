@@ -5,10 +5,9 @@ struct Node
 {
     int data;
     Node *next;
-}
+};
 
-Node *
-merging(Node *l1, Node *l2)
+Node *merging(Node *l1, Node *l2)
 {
     if (l1 == nullptr)
         return l2;
